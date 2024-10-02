@@ -10,10 +10,6 @@ This repository contains a **professional and modern LaTeX resume template** tai
 - **Automated Testing/DevOps Focus**: Pre-built fields for automation tools, testing skills, and project accomplishments.
 - **Hyperlinks**: Easily add clickable links for email, LinkedIn, and other contact info.
 
-## Preview
-
-![Resume Preview](link_to_image_if_any)
-
 ## Sections
 
 1. **Professional Objective**: Briefly state your career goals and highlight your key areas of expertise.
