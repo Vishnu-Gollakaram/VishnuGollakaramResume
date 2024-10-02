@@ -29,7 +29,7 @@ This repository contains a **professional and modern LaTeX resume template** tai
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/latex-resume-template.git
+    git clone https://github.com/Vishnu-Gollakaram/VishnuGollakaramResume.git
     ```
 2. Open the `.tex` file in your preferred LaTeX editor (such as Overleaf or VSCode with a LaTeX plugin).
 3. Replace the placeholder content (like `Your Name`, `Your Title`, `Company Name`) with your actual details.
