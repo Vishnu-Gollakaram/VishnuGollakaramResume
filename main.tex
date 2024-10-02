@@ -1,0 +1,99 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fontawesome}  % For icons
+\usepackage{xcolor}       % For color
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\geometry{margin=0.8in}
+\usepackage{titlesec}
+
+% Color Definitions
+\definecolor{headercolor}{HTML}{4A90E2}
+\definecolor{headingcolor}{HTML}{4A90E2}
+\definecolor{bodycolor}{HTML}{5D6D7E}
+\definecolor{linkcolor}{HTML}{2980B9}
+
+% Heading Customization
+\titleformat{\section}{\large\bfseries\color{headercolor}}{}{0em}{}[\titlerule]
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor
+}
+
+\begin{document}
+
+% Title & Contact Information
+\begin{minipage}[t]{0.7\textwidth}
+    \vspace{-1cm}
+    {\Huge\bfseries Your Name} \\
+    \textbf{\textit{Your Title (e.g., Software Engineer, Quality Engineer)}}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-1cm}
+    \raggedleft
+    \faEnvelope \hspace{1mm} \href{mailto:your.email@example.com}{your.email@example.com} \\
+    \faPhone \hspace{1mm} +YourPhoneNumber \\
+    \faLinkedinSquare \hspace{1mm} \href{https://www.linkedin.com/in/your-profile}{linkedin.com/in/your-profile}
+\end{minipage}
+
+\vspace{5mm}
+
+% Objective
+\section*{Professional Objective}
+Seeking a position as {Your Desired Role} to leverage {Your Experience} in {Skills or Areas of Expertise}. Proficient in {Tools or Methodologies}. Skilled in designing and executing automated test scripts and preparing Test Plans, Test Cases, and Defect Reports, with hands-on experience in Agile environments.
+
+% Experience
+\section*{Experience}
+\textbf{{Company Name}, {Location}} \\
+\textit{{Your Role}, {Start Date} - {End Date or Present}} \\
+\begin{itemize}[left=0pt, label=$\bullet$, topsep=3pt]
+    \item {Describe a key responsibility or accomplishment in this role}.
+    \item {Another key responsibility or project achievement}.
+    \item {Technology/tools you used, key metrics or results achieved}.
+\end{itemize}
+
+\vspace{3mm}
+\textbf{{Another Project or Role}} \\
+\begin{itemize}[left=0pt, label=$\bullet$, topsep=3pt]
+    \item {Project or task details that highlight your skills}.
+    \item {Your contribution, technologies used, and any key results}.
+\end{itemize}
+
+% Skills
+\section*{Technical Skills}
+\begin{itemize}[left=0pt, label=$\bullet$, topsep=3pt]
+    \item \textbf{Testing:} {Manual Testing, Automation Testing (tools like Selenium, Postman)}, Functional Testing, API Testing, etc.
+    \item \textbf{Automation Tools:} {Selenium, Jenkins, Postman, etc.}
+    \item \textbf{Bug Tracking:} {Azure DevOps, ALM, JIRA}.
+    \item \textbf{Other Tools:} {Other relevant tools like PowerBI, Angular, etc.}.
+\end{itemize}
+
+% Personal Projects
+\section*{Personal Projects}
+\textbf{{Project 1 Name}} \\
+\begin{itemize}[left=0pt, label=$\circ$, topsep=3pt]
+    \item {Describe the personal project, tools used, and your contribution}.
+    \item {Achievements or results you gained from this project}.
+\end{itemize}
+
+\textbf{{Project 2 Name}} \\
+\begin{itemize}[left=0pt, label=$\circ$, topsep=3pt]
+    \item {Details about the project, tools, and methods you applied}.
+    \item {Impact or improvements achieved through the project}.
+\end{itemize}
+
+% Education
+\section*{Education}
+\textbf{{Degree Name} - {Your Major}} \\
+{University Name}, {Year of Graduation}
+
+% Certifications
+\section*{Certifications}
+\begin{itemize}[left=0pt, label=$\bullet$, topsep=3pt]
+    \item {Certification Name - e.g., Microsoft Certified AZ-900 (Azure Fundamentals)}
+\end{itemize}
+
+\end{document}
+
